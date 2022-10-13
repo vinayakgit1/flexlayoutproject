@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: aqua;
+    
+    
+    
+}
+header{
+    background-color: blue;
+    height: 200px;
+    display: flex;
+
+}
+.logo{
+    background-color: blueviolet;
+    flex-basis: 20%;
+    
+}
+.nav{
+    background-color: cadetblue;
+    flex-basis: 80%;
+}
+section{
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 1000px;
+}
+.home{
+    background-color: burlywood;
+    height: 100%;
+    display: flex;
+
+
+}
+.aside-left{
+    background-color: tomato;
+    flex-basis: 50%;
+}
+.aside-right{
+    background-color: blue;
+    flex-basis: 50%;
+}
+.feature{
+    background-color: darkgoldenrod;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+.one{
+    height: 80%;
+    width:30% ;
+    background-color: blue;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.two{
+    height: 80%;
+    width:30% ;
+    background-color: blue;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.three{
+    height: 80%;
+    width:30% ;
+    background-color: blue;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.about{
+    background-color: tomato;
+    height: 100%;
+    display: flex;
+}
+.section-left{
+    background-color: springgreen;
+    flex-basis: 50%;
+}
+.section-right{
+    background-color: purple;
+    flex-basis: 50%;
+}
+.review{
+    background-color: violet;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+.r-one{
+    height: 80%;
+    width:30% ;
+    background-color: rgb(187, 255, 0);
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.r-two{
+    height: 80%;
+    width:30% ;
+    background-color: rgb(255, 251, 0);
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.r-three{
+    height: 80%;
+    width:30% ;
+    background-color: rgb(229, 255, 0);
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.pricing{
+    background-color: aqua;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+.basic{
+    height: 80%;
+    width:30% ;
+    background-color: rgb(255, 0, 0);
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.standard{
+    height: 80%;
+    width:30% ;
+    background-color: rgb(255, 0, 0);
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.premium{
+    height: 80%;
+    width:30% ;
+    background-color: rgb(255, 0, 0);
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+.contact{
+    background-color: springgreen;
+    height: 100%;
+    display: flex;
+}
+.contact-left{
+    background-color: seagreen;
+    flex-basis: 50%;
+}
+.contact-right{
+    background-color: purple;
+    flex-basis: 50%;
+}
+footer{
+    background-color: chartreuse;
+}
